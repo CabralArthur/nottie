@@ -1,2 +1,2 @@
-# readme-generator
-Readme Generator, developed with ReactJS.
+# nottie
+Nottie - Readme Generator, developed with ReactJS.
