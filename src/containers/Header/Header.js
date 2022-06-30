@@ -1,9 +1,11 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import Header from '../../components/Header/Header';
 
 const HeaderContainer = () => {
+    const navigate = useNavigate();
     const onNavigateToGenerator = () => {
-        console.log(1);
+        navigate('/generator');
     }
 
     return (
